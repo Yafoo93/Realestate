@@ -1,0 +1,381 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background: #9bd6ee;
+    font-family: sans-serif;
+}
+.kassim{
+min-height: 100vh;
+width: 100%;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/int2.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+
+}
+
+nav{
+    display: flex;
+    padding: 3% 8%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: orangered;
+    font-size: 13px;
+    text-decoration: none;
+}
+.nav-links ul li a:hover{
+    color: orange;
+    transition: 0.5s;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box{
+    font-size: 70px;
+}
+.text-box{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+#razak{
+    color: brown;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: orangered;
+    border: 1px solid white;
+    padding: 12px 34px;
+    margin-top: 40px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid orangered;
+    background: orange;
+    transition: 1s;
+}
+/*--------------------------PRODUCT STYLING---------------------*/
+.product{
+    width: 80%;
+    margin:  auto;
+    text-align: center;
+    padding-top: 100.px;
+    font-weight: 600;
+}
+#head1{
+    color: red;
+    margin-top: 40px;
+    font-weight: 800;
+    font-size: 40px;
+}
+.titles{
+    color: orangered;
+    text-decoration: none;
+    
+}
+.row{
+margin-top: 5%;
+display: flex;
+justify-content: space-between;
+}
+.pro{
+    flex-basis: 31%;
+    background: #F3e6c7;
+    border-radius: 10px;
+    scroll-margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    
+}
+.pro:hover{
+    border: 1px solid rgb(188, 250, 42);
+    background: #4f73f5;
+    transition: 0.5s;
+}
+/*--------------------SERVICE STYLING-----------------------*/
+.services{
+    width: 80%;
+    margin:  auto;
+    text-align: center;
+    padding-top: 100.px;
+    font-weight: 600;
+    margin-top: 5%;
+}
+#head2{
+    color: red;
+    margin-top: 40px;
+    font-weight: 800;
+    font-size: 40px;
+}
+#serv{
+    color: black;
+}
+.titles1{
+    color: orange;
+    text-decoration: none;
+}
+.row1{
+margin-top: 5%;
+display: flex;
+justify-content: space-between;
+}
+.pro1{
+    flex-basis: 31%;
+    background: #F3e6c7;
+    border-radius: 10px;
+    scroll-margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.pro1:hover{
+    border: 1px solid rgb(188, 250, 42);
+    background: #6a5bf6;
+    transition: 0.5s;
+}
+.row2{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8%;
+}
+/*-------------------what people say------------------------*/
+.wps{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.customers{
+    text-align: center;
+    color: rgb(245, 8, 8);
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+.customers p{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+.testim{
+    flex-basis: 40%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: cornsilk;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+    color: black;
+}
+.test{
+    flex-basis: 30%;
+    border-radius: 7px;
+    margin-left: 10px;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+.test img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.test h3{
+    margin-top: 10px;
+    color: blue;
+}
+.blist{
+    flex: 1;
+    text-align: center;
+}
+.blist ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.blist ul li a{
+    color: orangered;
+    font-size: 20px;
+    text-decoration: none;
+}
+.blist ul li a:hover{
+color: blue;
+transition: 1s;
+}
+.social{
+    text-align: center;
+}
+.social ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+#insta:hover{
+    color: rgb(248, 151, 171);
+    transition: 0.5s;
+}
+#youtube:hover{
+    color: red;
+    transition: 1s;
+}
+.social ul li a:hover{
+color: red;
+transition: 0.5s;
+}
+#tiktok:hover{
+    background: black;
+    color: cornsilk;
+    transition: 1s;
+}
+/*-------------------------------HOUSE FOR SALE-----------------------------*/
+.hsesale{
+min-height: 20vh;
+width: 100%;
+background-image: linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.3)),url(image/hse1.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+color: black;
+text-align: center;
+padding-top: 5%;
+}
+.sale h1{
+color: red;
+font-size: 30px;
+font-weight: 700;
+}
+#logot{
+    text-align: left;
+    border-radius: 50%;
+}
+.sale a{
+    margin-right: 50%;
+    margin-left: 3%;
+    border-radius: 50%;
+}
+.accrasale{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.accra{
+    flex-basis: 31%;
+    background: #F3e6c7;
+    border-radius: 10px;
+    scroll-margin-bottom: 5%;
+    padding: 20px;
+    margin-right: 10%;
+    box-sizing: border-box;
+}
+.accrasale1{
+    margin-top: 5%;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 8%;
+}
+#hous{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 2%;
+    color: brown;
+    margin-bottom: 2%;
+}
+#moto{
+    text-align: center;
+}
+.accra h4{
+    padding-left: 80px;
+    color: orangered;
+}
+.about{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+.sherif{
+    margin-bottom: 8%;
+}
+.sblist{
+    padding-top: 8%;
+}
+.search{
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    display: flex;
+}
+.searchbar{
+    width: 20%;
+    max-width: 700%;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 30px;
+}
+.searchbar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 3px 10px;
+    font-size: 15px;
+}
+.searchbar button ion-icon{
+    width: 35px;
+    height: 25px;
+}
+.searchbar button{
+border: 0;
+border-radius: 50%;
+width: 50%;
+height: 50%;
+background: transparent;
+cursor: pointer;
+margin-right: 1%;
+}
+.xyz{
+    background-color: #e7ed74;
+}
+.test ion-icon{
+    margin-top: 10px;
+}
